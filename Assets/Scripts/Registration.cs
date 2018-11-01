@@ -17,10 +17,10 @@ public class Registration : MonoBehaviour {
     // Update is called once per frame
     public void Register () {
 
-        float THRES = 1e-16;
+        float THRES = 1e-16f;
         int NUM_ITERATION = 50;
 
-        float dis = 0.f;
+        float dis = 0.0f;
         int num_iter = 0;
 
         // 获取数字模型的顶点、面片坐标
@@ -62,7 +62,7 @@ public class Registration : MonoBehaviour {
     private void GetPointCloud() {
         // Assuming you've scanned your space using the SpatialMappingManager, 
         // you can get all the mesh filter objects like so:
-        List< MeshFilter > meshFilters = SpatialMappingManager.Instance.GetMeshFilters();
+        List< MeshFilter > meshFilters = null;//SpatialMappingManager.Instance.GetMeshFilters();
 
         // TODO:
         // 这里需要去除掉不必要的mesh部分

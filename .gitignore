@@ -1,0 +1,14 @@
+/UWP/
+/Library/cache/
+/Library/metadata/
+/Library/PlayerDataCache/
+/Library/ScriptAssemblies/
+/Library/ShaderCache/
+/Temp/
+/Assets/HoloToolkit/
+*.meta
+/Library/
+/ProjectSettings/
+/UnityPackageManager/
+*.csproj
+*.sln
